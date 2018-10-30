@@ -5,6 +5,7 @@ def prime?(max)
   prime_list = []
   
   while num = list.shift
-  
+    prime_list << num 
+    
   
 end
