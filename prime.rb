@@ -4,10 +4,10 @@ def prime?(max)
   list = (2..max).to_a 
   prime_list = []
   
-  while num = list.shift
+  while value = list.shift
     prime_list << num 
-    if num = Math.sqrt(max).floor
+    if value = Math.sqrt(max).floor
       break
-      if list.each do {|num| num % 
+      if list.each do {|num| num % value ==0} 
   
 end
