@@ -11,6 +11,6 @@ def prime?(max)
       if list.each do {|num| num % value ==0}
       return false  
     end
-  
-  
+  end 
+    return true  
 end
