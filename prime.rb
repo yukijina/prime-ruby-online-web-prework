@@ -8,5 +8,6 @@ def prime?(max)
     prime_list << num 
     if num = Math.sqrt(max).floor
       break
+      if list
   
 end
