@@ -1,7 +1,9 @@
 # Add  code here!
 
 def prime?(num)
-  return false if num <= 1
+  if num <= 1
+   return false
+  end
   val = Math.sqrt(num).to_i
   list = (2..val).to_a 
   
