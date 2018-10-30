@@ -8,6 +8,9 @@ def prime?(max)
     prime_list << num 
     if value = Math.sqrt(max).floor
       break
-      if list.each do {|num| num % value ==0} 
+      if list.each do {|num| num % value ==0}
+      return false  
+    end
+  
   
 end
