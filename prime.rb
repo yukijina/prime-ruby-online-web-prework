@@ -6,6 +6,6 @@ def prime?(max)
   
   while num = list.shift
     prime_list << num 
-    if num = Math.sqrt()
+    if num = Math.sqrt(max).floor
   
 end
