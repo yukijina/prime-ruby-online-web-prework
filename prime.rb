@@ -1,16 +1,10 @@
 # Add  code here!
 
-def prime?(max)
-  list = (2..max).to_a 
-  prime_list = []
+def prime?(num)
+  return false if num <= 1
+  val = Math.sqrt(num).to_i
+  list = (2..val).to_a 
   
-  while value = list.shift
-    prime_list << num 
-    if value = Math.sqrt(max).floor
-      break
-      if list.each do {|num| num % value ==0}
-      return false  
-    end
-  end 
-    return true  
+    list.each {|i| return false if num % i == 0}
+  true
 end
